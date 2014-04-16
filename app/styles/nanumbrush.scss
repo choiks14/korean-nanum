@@ -1,0 +1,11 @@
+@import "_variables";
+
+@font-face {
+	font-family: 'NanumBrush';
+	font-style: normal;
+	src: url('#{$nanum-font-path}/nanumbrush/NanumBrush.otf');
+	src: url('#{$nanum-font-path}/nanumbrush/NanumBrush.eot') format('embedded-opentype'),
+	url('#{$nanum-font-path}/nanumbrush/NanumBrush.woff') format('woff'),
+	url('#{$nanum-font-path}/nanumbrush/NanumBrush.ttf') format('truetype')
+	url('#{$nanum-font-path}/nanumbrush/NanumBrush.svg') format('svg');
+}

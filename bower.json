@@ -1,10 +1,26 @@
 {
-  "name": "nanum",
-  "private": true,
-  "dependencies": {
-    "sass-bootstrap": "~3.0.0",
-    "modernizr": "~2.6.2",
-    "jquery": "~1.10.2"
-  },
-  "devDependencies": {}
+  "name": "korean-nanum",
+  "version": "1.0.0",
+  "authors": [
+    "choiks14@gmail.com"
+  ],
+  "description": "한글 나눔 서체",
+  "keywords": [
+    "korean",
+    "nanum"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests"
+  ],
+  "homepage": "https://github.com/choiks14/korean-nanum",
+  "moduleType": [
+    "globals"
+  ],
+  "private": false
 }

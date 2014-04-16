@@ -1,0 +1,11 @@
+@import "_variables";
+
+@font-face {
+	font-family: 'NanumPen';
+	font-style: normal;
+	src: url('#{$nanum-font-path}/nanumpen/NanumPen.otf');
+	src: url('#{$nanum-font-path}/nanumpen/NanumPen.eot') format('embedded-opentype'),
+	url('#{$nanum-font-path}/nanumpen/NanumPen.woff') format('woff'),
+	url('#{$nanum-font-path}/nanumpen/NanumPen.ttf') format('truetype')
+	url('#{$nanum-font-path}/nanumpen/NanumPen.svg') format('svg');
+}

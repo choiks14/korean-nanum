@@ -157,7 +157,8 @@ module.exports = function (grunt) {
             },
             dist: {
                 options: {
-                    generatedImagesDir: '<%= yeoman.dist %>/images/generated'
+                    generatedImagesDir: '<%= yeoman.dist %>/images/generated',
+                    debugInfo: false
                 }
             },
             server: {
@@ -247,14 +248,7 @@ module.exports = function (grunt) {
         htmlmin: {
             dist: {
                 options: {
-                    collapseBooleanAttributes: true,
-                    collapseWhitespace: true,
-                    removeAttributeQuotes: true,
-                    removeCommentsFromCDATA: true,
-                    removeEmptyAttributes: true,
-                    removeOptionalTags: true,
-                    removeRedundantAttributes: true,
-                    useShortDoctype: true
+                    
                 },
                 files: [{
                     expand: true,
@@ -329,7 +323,7 @@ module.exports = function (grunt) {
                 '<%= yeoman.dist %>/styles/{,*/}*.css',
                 '!<%= yeoman.dist %>/scripts/vendor/*'
             ],
-            uglify: true
+            uglify: false
         },
 
         // Run some tasks in parallel to speed up build process
@@ -392,10 +386,9 @@ module.exports = function (grunt) {
         'autoprefixer',
         'concat',
         'cssmin',
-        'uglify',
         'copy:dist',
-        'modernizr',
-        'rev',
+        //'modernizr',
+        //'rev',
         'usemin',
         'htmlmin'
     ]);

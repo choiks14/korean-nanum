@@ -1,0 +1,11 @@
+@import "_variables";
+
+@font-face {
+	font-family: 'NanumGothic';
+	font-style: normal;
+	src: url('#{$nanum-font-path}/nanumgothic/NanumGothic.otf');
+	src: url('#{$nanum-font-path}/nanumgothic/NanumGothic.eot') format('embedded-opentype'),
+	url('#{$nanum-font-path}/nanumgothic/NanumGothic.woff') format('woff'),
+	url('#{$nanum-font-path}/nanumgothic/NanumGothic.ttf') format('truetype')
+	url('#{$nanum-font-path}/nanumgothic/NanumGothic.svg') format('svg');
+}

@@ -1,0 +1,11 @@
+@import "_variables";
+
+@font-face {
+	font-family: 'NanumMyeongjo';
+	font-style: normal;
+	src: url('#{$nanum-font-path}/nanummyeongjo/NanumMyeongjo.otf');
+	src: url('#{$nanum-font-path}/nanummyeongjo/NanumMyeongjo.eot') format('embedded-opentype'),
+	url('#{$nanum-font-path}/nanummyeongjo/NanumMyeongjo.woff') format('woff'),
+	url('#{$nanum-font-path}/nanummyeongjo/NanumMyeongjo.ttf') format('truetype')
+	url('#{$nanum-font-path}/nanummyeongjo/NanumMyeongjo.svg') format('svg');
+}
