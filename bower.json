@@ -22,5 +22,20 @@
   "moduleType": [
     "globals"
   ],
+  "main": [
+    "./app/styles/nanumbarungothic.scss",
+    "./app/styles/nanumbarungothicbold.scss",
+    "./app/styles/nanumbrush.scss",
+    "./app/styles/nanumgothic.scss",
+    "./app/styles/nanumgothicbold.scss",
+    "./app/styles/nanumgothicextrabold.scss",
+    "./app/styles/nanumgothiclight.scss",
+    "./app/styles/nanummyeongjo.scss",
+    "./app/styles/nanummyeongjobold.scss",
+    "./app/styles/nanummyeongjoextrabold.scss",
+    "./app/styles/nanumpen.scssapp/styles",
+
+    "./app/styles/fonts/*"
+  ],
   "private": false
 }
